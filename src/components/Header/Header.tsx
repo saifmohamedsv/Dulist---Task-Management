@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Avatar, Box, Button, Modal } from "@mui/material";
 
-import userImage from "@/assets/memoji-eng.png";
+import userImage from "../../assets/memoji-eng.png";
 import NewTaskModal from "../NewTaskModal/NewTaskModal";
 import { AddCircle } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
