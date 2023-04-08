@@ -18,7 +18,7 @@ const TasksList = (props: TasksListProps) => {
       {props.tasksCount ? (
         <Box className="flex pb-4 overflow-scroll w-full mt-4 gap-2 p-2">
           {props.tasks?.map((task) => (
-            <div className="min-w-[480px]">
+            <div className="w-screen min-w-[280px]">
               <TaskCard key={task.id} {...task} />
             </div>
           ))}
